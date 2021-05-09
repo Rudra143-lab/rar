@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>
+            Game Screen
+        </title>
+
+        
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <style>
+ 
+ </style>
+    </head>
+    <body onload="change_name()">
+        <div id="score">
+            
+        <h4 id="player1_name"> = </h4><span id="player_1_score"></span>
+        
+        <h4 id="player2_name"> = </h4><span id="player_2_score"></span>
+        </div>
+        <center>
+            <h1>
+                The Maths Quiz Game!
+                
+            </h1>
+            <br>
+            <div id="main_div">
+                <br>
+                <h2 id="main_h2">Qustion Turn = <b id="qustion_player1"></b></h2>
+                <br>
+                <h2>Answer Turn = <b id="qustion_player2"></b> </h2>
+            </div>
+            <br>
+            <div id="output">
+
+            </div>
+            <br>
+            <br>
+            <h3>Number 1</h3>
+            <input id="number1" type="text" placeholder="Enter Number 1">
+            <br>
+            <br>
+            <h3>Number 2</h3>
+            <input id="number2" type="text" placeholder="Enter Number 2">
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <button id="send_button">Send</button>
+
+
+        </center>
+        <script src="game.js"></script>
+        <link rel="stylesheet" href="game.css">
+
+    </body>
+</html>

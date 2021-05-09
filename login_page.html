@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>
+            Project 89
+        </title>
+        
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <style>
+            .body_background
+            {
+                background-color: red;
+            }
+
+            h2{
+                font-weight: bold;
+                color: white;
+            }
+            #pl_1{
+               
+		background: skyblue;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+        height: 200px;
+        width: 500px;
+        border-color: black;
+        border-style: solid;
+            }
+
+            #pl_2{
+                background: skyblue;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+        height: 200px;
+        width: 500px;
+        border-color: black;
+        border-style: solid;
+            }
+
+            #input_1{
+                background-color: rgb(134, 221, 134);
+                border-style: solid;
+                border-color: black;
+            }
+
+            #input_2{
+                background-color: rgb(134, 221, 134);
+                border-style: solid;
+                border-color: black;
+            }
+
+            button{
+                font-size: 24px;
+                width: 100px;
+                height: 40px;
+                background-color: cyan;
+                border-style: solid;
+                border-color: black;
+            }
+        </style>
+    </head>
+    <body class="body_background">
+        <center>
+            <h2>
+              The Maths Quiz Game!
+            </h2>
+            <br>
+            <div id="pl_1">
+                <h3>
+                    PLAYER 1 LOGIN FOR THE GAME
+                </h3>
+                <label > <b>USER NAME</b></label><br>
+                <br>
+                <input type="text" id="input_1" placeholder="Enter Player 1 Name"></input>
+            </div>
+            <br>
+            <br>
+            <div id="pl_2">
+                <h3>
+                    PLAYER 2 LOGIN FOR THE GAME
+                </h3>
+                <label > <b>USER NAME</b></label>
+                <br><br>
+                <input type="text" id="input_2" placeholder="Enter Player 2 Name"></input>
+            </div>
+            <br><br>
+            <button onclick="add_user()"><b>LOGIN</b></button>
+        </center>
+        
+        <script src="login.js"></script>
+    </body>
+</html>
